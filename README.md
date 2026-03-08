@@ -50,11 +50,18 @@ Projeyi yerel ortamda çalıştırmak ve GitHub Pages üzerinde canlıya almak i
    ```bash
    npm run deploy
 
-   💡 Not: Bu komut arka planda önce projeyi optimize ederek derler (npm run build), ardından oluşan dist klasörünü gh-pages branch'ine aktararak       yayını tamamlar.
+   💡 Not: Bu komut arka planda önce projeyi optimize ederek derler (npm run build), ardından oluşan dist klasörünü gh-pages branch'ine aktararak yayını tamamlar.
 ---
 
 ### 👨‍💻 Proje Künyesi
-ÖzellikDetayGeliştiriciSude ŞentürkProje AdıSudeSenturk_WebGelistirmeProjesi_ToDoAppEğitimÜsküdar Üniversitesi - Bilgisayar MühendisliğiDurum✅ Production Ready (Canlıda)Canlı LinkUygulamayı Görüntüle 🚀
+
+| Özellik | Detay |
+| :--- | :--- |
+| **Geliştirici** | Sude Şentürk |
+| **Proje Adı** | SudeSenturk_WebGelistirmeProjesi_ToDoApp |
+| **Eğitim** | Üsküdar Üniversitesi - Bilgisayar Mühendisliği |
+| **Durum** | ✅ Production Ready (Canlıda) |
+| **Canlı Link** | [Uygulamayı Görüntüle 🚀](https://sudessss.github.io/SudeSenturk_ToDoAppProjesi_WebGelistirme/) |
 
 ---
 
