@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sudessss.github.io/denemetodoapp",
+  "homepage": "https://sudessss.github.io/SudeSenturk_ToDoAppProjesi_WebGelistirme",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
