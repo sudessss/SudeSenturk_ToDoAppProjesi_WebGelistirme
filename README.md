@@ -51,23 +51,37 @@ todo-app/
 ├── vite.config.js            # Vite konfigürasyonu ve Build ayarları
 └── package.json              # Proje bağımlılıkları ve scriptleri
 
-🔄 Çalıştırmak İçin (Benim Uyguladığım Adımlar)
-Projeyi geliştirirken ve yayına alırken terminalde şu pratik iş akışını takip ettim:
+🔄 Kurulum ve Yayına Alma Süreci
+Projeyi yerel ortamda çalıştırmak ve GitHub Pages üzerinde canlıya almak için takip ettiğim teknik iş akışı şu şekildedir:
 
 1. Proje Dizinine Giriş
+Terminal üzerinden proje klasörüne erişim sağladım:
 
 Bash
 cd todo-app
-2. Projeyi Derleme (Build)
+2. Bağımlılıkların Yüklenmesi
+Projenin ihtiyaç duyduğu tüm paketleri (React, Tailwind, dnd-kit vb.) yerel ortama kurdum:
 
+Bash
+npm install
+3. Yerel Geliştirme Sunucusunu Başlatma
+Geliştirme sürecinde anlık önizleme yapmak için Vite sunucusunu kullandım:
+
+Bash
+npm run dev
+4. Canlıya Alma (Production Deploy)
+Uygulamayı derleyip GitHub Pages üzerinde yayınlamak için hazırladığım deploy script'ini çalıştırdım:
+
+Bash
 npm run deploy
+Bu komut arka planda önce projeyi optimize ederek derler (npm run build), ardından oluşan dist klasörünü gh-pages branch'ine aktararak yayını tamamlar.
 
 
 👨‍💻 Proje Künyesi
 Geliştirici: Sude Şentürk
 Proje Adı: SudeSenturk_WebGelistirmeProjesi_ToDoApp
 Durum: Production Ready (Canlıda)
-Canlı Link: [GitHub Pages Üzerinden Görüntüle 🚀](https://sudessss.github.io/SudeSenturk_ToDoAppProjesi_WebGelistirme/)
+Canlı Link: [SudeSenturk To-Do App (GitHub Pages)](https://sudessss.github.io/SudeSenturk_ToDoAppProjesi_WebGelistirme/)
 
 ℹ️ Hakkında (About)
 Bu proje, modern web geliştirme standartlarını öğrenmek amacıyla geliştirilmiş, React ve Vite ekosistemine dayalı bir görev yönetim uygulamasıdır. Başlangıç aşamasında eğitim materyallerinden faydalanılmış olsa da; projenin deployment (yayına alma) süreçleri, terminal üzerinden Netlify CLI yönetimi ve klasör yapısı optimizasyonları tamamen şahsım tarafından yürütülmüştür.
