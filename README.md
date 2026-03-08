@@ -70,47 +70,24 @@ todo-app/
 ├── vite.config.js            # Vite konfigürasyonu ve Build ayarları
 └── package.json              # Proje bağımlılıkları ve scriptleri
 
-🔄 Kurulum ve Yayına Alma Süreci
-Projeyi yerel ortamda çalıştırmak ve GitHub Pages üzerinde canlıya almak için takip ettiğim teknik iş akışı şu şekildedir:
-
-1. Proje Dizinine Giriş
-Terminal üzerinden proje klasörüne erişim sağladım:
-
+### 🔄 Kurulum ve Yayına Alma Süreci
+Projeyi yerel ortamda çalıştırmak ve **GitHub Pages** üzerinde canlıya almak için takip ettiğim teknik iş akışı şu şekildedir:1. **Proje Dizinine Giriş** Terminal üzerinden proje klasörüne erişim sağladım:
+   ```bash
+   cd todo-app
+Bağımlılıkların Yüklenmesi Projenin ihtiyaç duyduğu tüm paketleri (React, Tailwind, dnd-kit vb.) yerel ortama kurdum:
 Bash
-cd todo-app
-2. Bağımlılıkların Yüklenmesi
-Projenin ihtiyaç duyduğu tüm paketleri (React, Tailwind, dnd-kit vb.) yerel ortama kurdum:
 
-Bash
 npm install
-3. Yerel Geliştirme Sunucusunu Başlatma
-Geliştirme sürecinde anlık önizleme yapmak için Vite sunucusunu kullandım:
-
+Yerel Geliştirme Sunucusunu Başlatma Geliştirme sürecinde anlık önizleme yapmak için Vite sunucusunu kullandım:
 Bash
+
 npm run dev
-4. Canlıya Alma (Production Deploy)
-Uygulamayı derleyip GitHub Pages üzerinde yayınlamak için hazırladığım deploy script'ini çalıştırdım:
-
+Canlıya Alma (Production Deploy) Uygulamayı derleyip yayına almak için hazırladığım deploy script'ini çalıştırdım:
 Bash
+
 npm run deploy
-Bu komut arka planda önce projeyi optimize ederek derler (npm run build), ardından oluşan dist klasörünü gh-pages branch'ine aktararak yayını tamamlar.
-
-
+💡 Bu komut arka planda önce projeyi optimize ederek derler (npm run build), ardından oluşan distklasörünü gh-pages branch'ine aktararak yayını tamamlar.
 👨‍💻 Proje Künyesi
-Geliştirici: Sude Şentürk
-Proje Adı: SudeSenturk_WebGelistirmeProjesi_ToDoApp
-Durum: Production Ready (Canlıda)
-Canlı Link: [SudeSenturk To-Do App (GitHub Pages)](https://sudessss.github.io/SudeSenturk_ToDoAppProjesi_WebGelistirme/)
-
+ÖzellikDetayGeliştiriciSude ŞentürkProje AdıSudeSenturk_WebGelistirmeProjesi_ToDoAppEğitimÜsküdar Üniversitesi - Bilgisayar MühendisliğiDurum✅ Production Ready (Canlıda)Canlı LinkUygulamayı Görüntüle 🚀
 ℹ️ Hakkında (About)
-Bu proje, modern web geliştirme standartlarını öğrenmek amacıyla geliştirilmiş, React ve Vite ekosistemine dayalı bir görev yönetim uygulamasıdır. Başlangıç aşamasında eğitim materyallerinden faydalanılmış olsa da; projenin deployment (yayına alma) süreçleri, terminal üzerinden Netlify CLI yönetimi ve klasör yapısı optimizasyonları tamamen şahsım tarafından yürütülmüştür.
-
----
-
-
-### 📸 Uygulama Görselleri
-![Dashboard](https://raw.githubusercontent.com/sudessss/SudeSenturk_ToDoAppProjesi_WebGelistirme/main/assests/ToDoApp_IlkGosterim.png)
-![Düzenleme](https://raw.githubusercontent.com/sudessss/SudeSenturk_ToDoAppProjesi_WebGelistirme/main/assests/ToDoApp_VeriDuzenleme.png)
-
-### 🎥 Tanıtım Videosu
-[Uygulama Kullanım Videosunu İzlemek İçin Tıklayın](https://github.com/sudessss/SudeSenturk_ToDoAppProjesi_WebGelistirme/blob/main/assests/ToDoApp_KullanimVideosu.mov)
+Bu proje, modern web geliştirme standartlarını ve React ekosistemini bizzat deneyimleyerek öğrenmek amacıyla geliştirilmiş bir görev yönetim uygulamasıdır. Projenin GitHub Pages üzerinden yayına alınma (deployment) süreçleri, terminal tabanlı paket yönetimi ve modüler klasör yapısı optimizasyonları tamamen şahsım tarafından yürütülmüştür.
