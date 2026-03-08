@@ -90,9 +90,8 @@ Bu proje, modern web geliştirme standartlarını öğrenmek amacıyla geliştir
 
 
 ### 📸 Uygulama Görselleri
+![Dashboard](https://raw.githubusercontent.com/sudessss/SudeSenturk_ToDoAppProjesi_WebGelistirme/main/assests/ToDoApp_IlkGosterim.png)
+![Düzenleme](https://raw.githubusercontent.com/sudessss/SudeSenturk_ToDoAppProjesi_WebGelistirme/main/assests/ToDoApp_VeriDuzenleme.png)
 
-| Dashboard Görünümü | Veri Düzenleme | Görev Yönetimi |
-|:---:|:---:|:---:|
-| ![Dashboard](https://raw.githubusercontent.com/sudessss/SudeSenturk_ToDoAppProjesi_WebGelistirme/main/assests/ToDoApp_IlkGosterim.png) | ![Düzenleme](https://raw.githubusercontent.com/sudessss/SudeSenturk_ToDoAppProjesi_WebGelistirme/main/assests/ToDoApp_VeriDuzenleme.png) | ![Yönetim](https://raw.githubusercontent.com/sudessss/SudeSenturk_ToDoAppProjesi_WebGelistirme/main/assests/ToDoApp_eklenengoreviduzenlemevecopeatma.png) |
-| **Genel Özet** | **Tüm Gosterimler** | **Video Rehber** |
-| ![Özet](https://raw.githubusercontent.com/sudessss/SudeSenturk_ToDoAppProjesi_WebGelistirme/main/assests/ToDoApp_IkıncıGosterim_VeriEklenilmis.png) | ![Hepsi](https://raw.githubusercontent.com/sudessss/SudeSenturk_ToDoAppProjesi_WebGelistirme/main/assests/ToDoApp_HepsiSayfasında_TumGosterimler.png) | [▶️ Videoyu İzle](https://github.com/sudessss/SudeSenturk_ToDoAppProjesi_WebGelistirme/blob/main/assests/ToDoApp_KullanimVideosu.mov) |
+### 🎥 Tanıtım Videosu
+[Uygulama Kullanım Videosunu İzlemek İçin Tıklayın](https://github.com/sudessss/SudeSenturk_ToDoAppProjesi_WebGelistirme/blob/main/assests/ToDoApp_KullanimVideosu.mov)
