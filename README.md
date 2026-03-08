@@ -14,6 +14,13 @@ Bu uygulama, kullanıcıların günlük görevlerini **CRUD** (Create, Read, Upd
 
 ---
 
+### 📸 Uygulama Görselleri
+![Dashboard](./assets/ToDoApp_IlkGosterim.png)
+![Düzenleme](./assets/ToDoApp_VeriDuzenleme.png)
+
+### 🎥 Tanıtım Videosu
+[Uygulama Kullanım Videosunu İzlemek İçin Tıklayın](./assets/ToDoApp_KullanimVideosu.mov)
+
 ### 🛠️ Kullanılan Teknolojiler & Özellikler
 * **Frontend:** React + Tailwind CSS
 * **Versiyon Kontrol:** Git & GitHub
