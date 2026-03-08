@@ -40,6 +40,13 @@ Uygulama, sürdürülebilirlik ve kodun okunabilirliğini artırmak amacıyla mo
 
 ```text
 todo-app/
+├── assests/                                # Uygulama tanıtım materyalleri
+│   ├── ToDoApp_KullanimVideosu.mov         # Uygulamanın temel işlevlerini gösteren video kaydı
+│   ├── ToDoApp_IlkGosterim.png             # Uygulama açılış ekranı görseli
+│   ├── ToDoApp_VeriDuzenleme.png           # Görev düzenleme (Edit) modalı görseli
+│   ├── ToDoApp_IkıncıGosterim_VeriEklenilmis.png # Veri girişi sonrası ana ekran görünümü
+│   ├── ToDoApp_HepsiSayfasında_TumGosterimler.png # Tüm görevlerin listelendiği genel görünüm
+│   └── ToDoApp_eklenengoreviduzenlemevecopeatma.png # CRUD (Düzenleme ve Silme) kanıt görseli
 ├── src/
 │   ├── components/           # Tekrar kullanılabilir arayüz bileşenleri
 │   │   ├── ProgressCircle.jsx# Görev tamamlanma oranını gösteren grafik
