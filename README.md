@@ -37,20 +37,20 @@ Bu uygulama, kullanıcıların günlük görevlerini **CRUD** (Create, Read, Upd
 
 ### 🔄 Kurulum ve Yayına Alma Süreci
 Projeyi yerel ortamda çalıştırmak ve GitHub Pages üzerinde canlıya almak için takip ettiğim teknik iş akışı şu şekildedir:
-Proje Dizinine Giriş Terminal üzerinden proje klasörüne erişim sağladım:
-Bash
-cd todo-app
-Bağımlılıkların Yüklenmesi Projenin ihtiyaç duyduğu tüm paketleri (React, Tailwind, dnd-kit vb.) yerel ortama kurdum:
-Bash
-npm install
-Yerel Geliştirme Sunucusunu Başlatma Geliştirme sürecinde anlık önizleme yapmak için Vite sunucusunu kullandım:
-Bash
-npm run dev
-Canlıya Alma (Production Deploy) Uygulamayı derleyip yayına almak için hazırladığım deploy script'ini çalıştırdım:
-Bash
-npm run deploy
+1. **Proje Dizinine Giriş**
+   ```bash
+   cd todo-app
+2. **Bağımlılıkların Yüklenmesi**
+   ```bash
+   npm install
+3. **Yerel Geliştirme Sunucusunu Başlatma**
+   ```bash
+   npm run dev
+4. **Canlıya Alma (Production Deploy)**
+   ```bash
+   npm run deploy
+   
 💡 Not: Bu komut arka planda önce projeyi optimize ederek derler (npm run build), ardından oluşan dist klasörünü gh-pages branch'ine aktararak yayını tamamlar.
-
 ---
 
 ### 👨‍💻 Proje Künyesi
