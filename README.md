@@ -96,8 +96,5 @@ Bu proje, modern web geliştirme standartlarını öğrenmek amacıyla geliştir
 ![Düzenleme](https://raw.githubusercontent.com/sudessss/SudeSenturk_ToDoAppProjesi_WebGelistirme/main/assests/ToDoApp_eklenengoreviduzenlemevecopeatma.png)
 ![Dashboard](https://raw.githubusercontent.com/sudessss/SudeSenturk_ToDoAppProjesi_WebGelistirme/main/assests/ToDoApp_HepsiSayfasında_TumGosterimler.png)
 
-
-
 ### 🎥 Tanıtım Videosu
 [Uygulama Kullanım Videosunu İzlemek İçin Tıklayın](https://github.com/sudessss/SudeSenturk_ToDoAppProjesi_WebGelistirme/blob/main/assests/ToDoApp_KullanimVideosu.mov)
-
