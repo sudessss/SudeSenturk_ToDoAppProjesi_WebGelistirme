@@ -49,7 +49,6 @@ todo-app/
 │   └── main.jsx              # React giriş noktası (Entry Point)
 ├── public/                   # Statik varlıklar (Favicon, resimler vb.)
 ├── vite.config.js            # Vite konfigürasyonu ve Build ayarları
-├── netlify.toml              # Netlify otomatik dağıtım ayarları
 └── package.json              # Proje bağımlılıkları ve scriptleri
 
 🔄 Çalıştırmak İçin (Benim Uyguladığım Adımlar)
