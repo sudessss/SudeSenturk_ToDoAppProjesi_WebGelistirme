@@ -70,8 +70,12 @@ todo-app/
 ├── vite.config.js            # Vite konfigürasyonu ve Build ayarları
 └── package.json              # Proje bağımlılıkları ve scriptleri
 
+---
+
 ### 🔄 Kurulum ve Yayına Alma Süreci
-Projeyi yerel ortamda çalıştırmak ve **GitHub Pages** üzerinde canlıya almak için takip ettiğim teknik iş akışı şu şekildedir:1. **Proje Dizinine Giriş** Terminal üzerinden proje klasörüne erişim sağladım:
+Projeyi yerel ortamda çalıştırmak ve **GitHub Pages** üzerinde canlıya almak için takip ettiğim teknik iş akışı şu şekildedir:
+
+1. **Proje Dizinine Giriş** Terminal üzerinden proje klasörüne erişim sağladım:
    ```bash
    cd todo-app
 Bağımlılıkların Yüklenmesi Projenin ihtiyaç duyduğu tüm paketleri (React, Tailwind, dnd-kit vb.) yerel ortama kurdum:
