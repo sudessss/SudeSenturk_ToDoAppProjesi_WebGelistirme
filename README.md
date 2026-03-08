@@ -49,8 +49,8 @@ Projeyi yerel ortamda çalıştırmak ve GitHub Pages üzerinde canlıya almak i
 4. **Canlıya Alma (Production Deploy)**
    ```bash
    npm run deploy
-   
-💡 Not: Bu komut arka planda önce projeyi optimize ederek derler (npm run build), ardından oluşan dist klasörünü gh-pages branch'ine aktararak yayını tamamlar.
+
+   💡 Not: Bu komut arka planda önce projeyi optimize ederek derler (npm run build), ardından oluşan dist klasörünü gh-pages branch'ine aktararak       yayını tamamlar.
 ---
 
 ### 👨‍💻 Proje Künyesi
