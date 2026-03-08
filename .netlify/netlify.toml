@@ -1,0 +1,28 @@
+plugins = []
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "/Users/sudesenturk/Downloads/SudeSenturk_WebGelistirmeProjesi_ToDoApp-main-2/todo-app/dist"
+publishOrigin = "config"
+commandOrigin = "config"
+base = "/Users/sudesenturk/Downloads/SudeSenturk_WebGelistirmeProjesi_ToDoApp-main-2/todo-app"
+command = "npm run build"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
