@@ -15,11 +15,11 @@ Bu uygulama, kullanıcıların günlük görevlerini **CRUD** (Create, Read, Upd
 ---
 
 ### 📸 Uygulama Görselleri
-![Dashboard](./assets/ToDoApp_IlkGosterim.png)
-![Düzenleme](./assets/ToDoApp_VeriDuzenleme.png)
+![Dashboard](https://raw.githubusercontent.com/sudessss/SudeSenturk_ToDoAppProjesi_WebGelistirme/main/assests/ToDoApp_IlkGosterim.png)
+![Düzenleme](https://raw.githubusercontent.com/sudessss/SudeSenturk_ToDoAppProjesi_WebGelistirme/main/assests/ToDoApp_VeriDuzenleme.png)
 
 ### 🎥 Tanıtım Videosu
-[Uygulama Kullanım Videosunu İzlemek İçin Tıklayın](./assets/ToDoApp_KullanimVideosu.mov)
+[Uygulama Kullanım Videosunu İzlemek İçin Tıklayın](https://github.com/sudessss/SudeSenturk_ToDoAppProjesi_WebGelistirme/blob/main/assests/ToDoApp_KullanimVideosu.mov)
 
 ### 🛠️ Kullanılan Teknolojiler & Özellikler
 * **Frontend:** React + Tailwind CSS
