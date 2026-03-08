@@ -1,4 +1,0 @@
-[build]
-  base = "todo-app"
-  publish = "dist"
-  command = "npm run build"
