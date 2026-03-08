@@ -35,6 +35,30 @@ Bu uygulama, kullanıcıların günlük görevlerini **CRUD** (Create, Read, Upd
 
 ---
 
+### 🔄 Kurulum ve Yayına Alma Süreci
+Projeyi yerel ortamda çalıştırmak ve **GitHub Pages** üzerinde canlıya almak için takip ettiğim teknik iş akışı şu şekildedir:
+
+1. **Proje Dizinine Giriş** Terminal üzerinden proje klasörüne erişim sağladım:
+   ```bash
+   cd todo-app
+Bağımlılıkların Yüklenmesi Projenin ihtiyaç duyduğu tüm paketleri (React, Tailwind, dnd-kit vb.) yerel ortama kurdum:
+Bash
+
+npm install
+Yerel Geliştirme Sunucusunu Başlatma Geliştirme sürecinde anlık önizleme yapmak için Vite sunucusunu kullandım:
+Bash
+
+npm run dev
+Canlıya Alma (Production Deploy) Uygulamayı derleyip yayına almak için hazırladığım deploy script'ini çalıştırdım:
+Bash
+
+npm run deploy
+💡 Bu komut arka planda önce projeyi optimize ederek derler (npm run build), ardından oluşan distklasörünü gh-pages branch'ine aktararak yayını tamamlar.
+👨‍💻 Proje Künyesi
+ÖzellikDetayGeliştiriciSude ŞentürkProje AdıSudeSenturk_WebGelistirmeProjesi_ToDoAppEğitimÜsküdar Üniversitesi - Bilgisayar MühendisliğiDurum✅ Production Ready (Canlıda)Canlı LinkUygulamayı Görüntüle 🚀
+ℹ️ Hakkında (About)
+Bu proje, modern web geliştirme standartlarını ve React ekosistemini bizzat deneyimleyerek öğrenmek amacıyla geliştirilmiş bir görev yönetim uygulamasıdır. Projenin GitHub Pages üzerinden yayına alınma (deployment) süreçleri, terminal tabanlı paket yönetimi ve modüler klasör yapısı optimizasyonları tamamen şahsım tarafından yürütülmüştür.
+
 ### 📁 Proje Klasör Yapısı (Folder Structure)
 Uygulama, sürdürülebilirlik ve kodun okunabilirliğini artırmak amacıyla modüler bir mimari ile inşa edilmiştir:
 
@@ -70,28 +94,3 @@ todo-app/
 ├── vite.config.js            # Vite konfigürasyonu ve Build ayarları
 └── package.json              # Proje bağımlılıkları ve scriptleri
 
----
-
-### 🔄 Kurulum ve Yayına Alma Süreci
-Projeyi yerel ortamda çalıştırmak ve **GitHub Pages** üzerinde canlıya almak için takip ettiğim teknik iş akışı şu şekildedir:
-
-1. **Proje Dizinine Giriş** Terminal üzerinden proje klasörüne erişim sağladım:
-   ```bash
-   cd todo-app
-Bağımlılıkların Yüklenmesi Projenin ihtiyaç duyduğu tüm paketleri (React, Tailwind, dnd-kit vb.) yerel ortama kurdum:
-Bash
-
-npm install
-Yerel Geliştirme Sunucusunu Başlatma Geliştirme sürecinde anlık önizleme yapmak için Vite sunucusunu kullandım:
-Bash
-
-npm run dev
-Canlıya Alma (Production Deploy) Uygulamayı derleyip yayına almak için hazırladığım deploy script'ini çalıştırdım:
-Bash
-
-npm run deploy
-💡 Bu komut arka planda önce projeyi optimize ederek derler (npm run build), ardından oluşan distklasörünü gh-pages branch'ine aktararak yayını tamamlar.
-👨‍💻 Proje Künyesi
-ÖzellikDetayGeliştiriciSude ŞentürkProje AdıSudeSenturk_WebGelistirmeProjesi_ToDoAppEğitimÜsküdar Üniversitesi - Bilgisayar MühendisliğiDurum✅ Production Ready (Canlıda)Canlı LinkUygulamayı Görüntüle 🚀
-ℹ️ Hakkında (About)
-Bu proje, modern web geliştirme standartlarını ve React ekosistemini bizzat deneyimleyerek öğrenmek amacıyla geliştirilmiş bir görev yönetim uygulamasıdır. Projenin GitHub Pages üzerinden yayına alınma (deployment) süreçleri, terminal tabanlı paket yönetimi ve modüler klasör yapısı optimizasyonları tamamen şahsım tarafından yürütülmüştür.
