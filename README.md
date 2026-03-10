@@ -78,7 +78,7 @@ Uygulama, sürdürülebilirlik ve kodun okunabilirliğini artırmak amacıyla mo
 
 ```text
 todo-app/
-├── assests/                                # Uygulama tanıtım materyalleri
+├── assets/                                 # Uygulama tanıtım materyalleri
 │   ├── ToDoApp_KullanimVideosu.mov         # Uygulamanın temel işlevlerini gösteren video kaydı
 │   ├── ToDoApp_IlkGosterim.png             # Uygulama açılış ekranı görseli
 │   ├── ToDoApp_VeriDuzenleme.png           # Görev düzenleme (Edit) modalı görseli
