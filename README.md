@@ -1,3 +1,6 @@
+![React](https://img.shields.io/badge/React-18-blue)
+![Vite](https://img.shields.io/badge/Vite-BuildTool-purple)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-3-blue)
 # 🚀 SudeSenturk_WebGelistirmeProjesi_ToDoApp
 
 🔗 **Canlı Uygulama Linki:** [SudeSenturk To-Do App (GitHub Pages)](https://sudessss.github.io/SudeSenturk_ToDoAppProjesi_WebGelistirme/)
@@ -30,8 +33,8 @@ Bu uygulama, kullanıcıların günlük görevlerini **CRUD** (Create, Read, Upd
 * **Frontend:** React + Tailwind CSS
 * **Versiyon Kontrol:** Git & GitHub
 * **Veri Saklama:** LocalStorage ile veri persist etme (sayfa yenilense bile görevler kaybolmuyor)
-* **Yeni Kullanıcı Ekleme:** Form üzerinden kullanıcı/görev ekleme ✅
-* **Kullanıcı Silme:** İstenmeyen görevleri kaldırma ✅
+* **Yeni Görev Ekleme:** Form üzerinden görev ekleme ✅
+* **Görev Silme:** İstenmeyen görevleri kaldırma ✅
 
 ---
 
