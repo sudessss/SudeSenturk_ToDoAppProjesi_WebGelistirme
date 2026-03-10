@@ -62,7 +62,7 @@ Projeyi yerel ortamda çalıştırmak ve GitHub Pages üzerinde canlıya almak i
 | :--- | :--- |
 | **Geliştirici** | Sude Şentürk |
 | **Proje Adı** | SudeSenturk_WebGelistirmeProjesi_ToDoApp |
-| **Eğitim** | Üsküdar Üniversitesi - Bilgisayar Mühendisliği |
+| **Proje** | Web Geliştirme; JavaScript Eğitim Projesi (Software Persona - TNC Group) |
 | **Durum** | ✅ Production Ready (Canlıda) |
 | **Canlı Link** | [Uygulamayı Görüntüle 🚀](https://sudessss.github.io/SudeSenturk_ToDoAppProjesi_WebGelistirme/) |
 
